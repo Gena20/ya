@@ -1,7 +1,8 @@
-CREATE TABLE offers (
-    code        char(5),
-    title       varchar(40),
-    did         integer,
-    date_prod   date,
-    kind        varchar(10)
-)
+-- CREATE TABLE shop_units (
+--     id          UUID NOT NULL,
+--     parent_id   UUID,
+--     name        VARCHAR(255) NOT NULL,
+--     date        TIMESTAMP NOT NULL,
+--     type        VARCHAR(10) NOT NULL,
+--     price       BIGINT
+-- )
