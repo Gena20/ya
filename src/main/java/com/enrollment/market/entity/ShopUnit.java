@@ -95,7 +95,6 @@ public class ShopUnit {
     }
 
     public void setParent(ShopUnit parent) {
-        parent.addChild(this);
         this.parent = parent;
     }
 
