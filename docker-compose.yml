@@ -20,6 +20,7 @@ services:
     ports:
       - "8000:8000"
       - "8080:8080"
+      - "80:80"
     volumes:
       - ./:/app
     command: ./mvnw spring-boot:run -e -Dspring-boot.run.jvmArguments="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000"
